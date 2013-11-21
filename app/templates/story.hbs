@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<h2> by {{fullname}} <small class="muted">{{format-date submittedOn}}</small></h2>
+{{#each tagnames}}
+  <span class="label label-primary">{{this}}</span>
+{{/each}}
+<hr>
+<p class="lead">
+      {{excerpt}}
+</p>
